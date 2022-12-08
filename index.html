@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Inter&family=Rubik&family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <h1 class="logo">ADVENTURE.</h1>
+      <ul class="NAV-LINKS">
+        <li class="active"><a href="#"></a>Home</li>
+        <li><a href="#"></a>Tours</li>
+        <li><a href="#"></a>Explore</li>
+        <li><a href="#"></a>About</li>
+        <li class="ctn"><a href="#"></a>Contacts</li>
+      </ul>
+      <img src="img/menuicon.png" alt="" class="menu-btn" />
+    </nav>
+    <header>
+      <div class="header-content">
+        <h2>Explore the beauty around the world</h2>
+        <div class="line"></div>
+        <h1>Feel the paradise</h1>
+        <a href="#" class="ctn"> Lets Start </a>
+      </div>
+    </header>
+
+    <!-- events -->
+
+    <section class="events">
+      <div class="title">
+        <h1>Upcoming events</h1>
+        <div class="line"></div>
+      </div>
+      <div class="row1">
+        <div class="col">
+          <img src="./img/trekking.jpg" alt="" />
+          <h4>Trekking</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+            corrupti sunt fugiat.
+          </p>
+          <a href="#" class="ctn">Learn more</a>
+        </div>
+        <div class="col">
+          <img src="./img/diving.jpg" alt="" />
+          <h4>Diving</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+            corrupti sunt fugiat.
+          </p>
+          <a href="#" class="ctn">Learn more</a>
+        </div>
+      </div>
+      <div class="row2">
+        <div class="col">
+          <img src="./img/paragliding.jpg" alt="" />
+          <h4>Paragliding</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+            corrupti sunt fugiat.
+          </p>
+          <a href="#" class="ctn">Learn more</a>
+        </div>
+        <div class="col">
+          <img src="./img/rafting.jpg" alt="" />
+          <h4>Rafting</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+            corrupti sunt fugiat.
+          </p>
+          <a href="#" class="ctn">Learn more</a>
+        </div>
+      </div>
+    </section>
+    <section class="explore">
+      <div class="explore-content">
+        <h1>Discover the planet</h1>
+        <div class="line"></div>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit
+          corrupti doloribus tenetur cumque placeat tempore. Labore ex dicta
+          doloremque magnam corporis in corrupti?
+        </p>
+        <a href="#" class="ctn"> More Info </a>
+      </div>
+    </section>
+    <section class="tours">
+      <div class="row">
+        <div class="col content-col">
+          <h1>Upcoming Tours & Destination</h1>
+          <div class="line"></div>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+            quo at alias iure sequi perferendis omnis porro in! Veniam alias
+            sunt, libero ex quam iure perspiciatis rem dolore illo eum nostrum
+            possimus id quae.
+          </p>
+          <a href="#" class="ctn">Details</a>
+          <div class="col image-col">
+            <div class="image-gallery">
+              <img src="./img/aziz-acharki-U3C79SeHa7k-unsplash.jpg" alt="" />
+              <img src="./img/patrick-hendry-rGoxQdG6GXc-unsplash.jpg" alt="" />
+              <img
+                src="./img/julentto-photography-Yr1SCCRJXIY-unsplash.jpg"
+                alt=""
+              />
+              <!-- <img src="./img/rosie-sun-1L71sPT5XKc-unsplash.jpg" alt="" /> -->
+            </div>
+
+      </div>
+    </section>
+    <section class="footer">
+      <p>
+        123 fifteh avenue , NY 10160 ,USA | phone: 800-123-456 | Email:
+        contact@xyz.com
+      </p>
+      <p>Copyright @ 2020 Outdoor Adventure</p>
+    </section>
+    <script>
+      const menubtn = document.querySelector(".menu-btn");
+      const NAVLINKS = document.querySelector(".NAV-LINKS");
+
+      menubtn.addEventListener("click", () => {
+        NAVLINKS.classList.toggle("mobile-menu");
+      });
+    </script>
+  </body>
+</html>
